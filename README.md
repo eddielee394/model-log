@@ -54,7 +54,7 @@ If you want to differently display  "user" field in the "model-log" table, add "
 **Example:**
 
 ```php
-public function getLogNameAttribute()
+public function getLogNameAttribute() 
 {
    return $this->firstname . " " . $this->lastname;
 }
